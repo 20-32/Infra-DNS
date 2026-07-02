@@ -1,1 +1,1 @@
-# Docker-DNS
+# Infra-DNS
