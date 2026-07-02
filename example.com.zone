@@ -1,0 +1,16 @@
+$TTL 86400
+@   IN  SOA dns.example.com. admin.example.com. (
+        2026070201  ; Serial
+        3600        ; Refresh
+        1800        ; Retry
+        604800      ; Expire
+        86400 )     ; Minimum TTL
+
+@           IN  NS  dns.example.com.
+@           IN  MX  10 mail.example.com.
+
+dns         IN  A   172.30.0.10
+www         IN  A   172.30.0.20
+ftp         IN  A   172.30.0.30
+mail        IN  A   172.30.0.40
+nfs         IN  A   172.30.0.50
