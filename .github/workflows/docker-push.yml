@@ -15,6 +15,6 @@ jobs:
       - name: Build and Push
         uses: docker/build-push-action@v4
         with:
-          context: ./dns
+          context: .
           push: true
           tags: gyustar/infra-dns:1.0
